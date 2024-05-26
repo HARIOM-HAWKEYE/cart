@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main .productSite{
+    height: 70%;
+    width: 60%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: wheat;
+    background: #e18e5d;  
+background: -webkit-linear-gradient(to right, #5691c8, #457fca);  
+background: linear-gradient(to right, #5691c8, #457fca); 
+
+
+}
+.main .productSite .text{
+    width: 100%;
+    text-align: center;
+}
+.main .productSite .product{
+    width: 90%;
+    height: 15%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #360033; 
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  
+background: linear-gradient(to right, #0b8793, #360033); 
+
+}
+.main .productSite .product .prName{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid red; */
+    padding-left: 45px;
+    padding-top: 20px;
+}
+.main .productSite .product .prQnt{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid red; */
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.main .productSite .product .prCart{
+    height: 80%;
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 50px;
+    background: #6441A5; 
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  
+background: linear-gradient(to right, #2a0845, #6441A5); 
+}
+.main .productSite .product .prCart .incr1{
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main .productSite .product .prCart .incr1:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .incr2:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .incr3:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .incr4:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .QNT1{
+    font-size: 1.3rem;
+}
+.main .productSite .product .prCart .dicr1:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .dicr2:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .dicr3:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .dicr4:hover {
+    transform: scale(0.8);
+}
+.main .productSite .product .prCart .dicr1{
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.main .productSite .product .prCart .incr2{
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main .productSite .product .prCart .QNT2{
+    font-size: 1.3rem;
+}
+
+.main .productSite .product .prCart .dicr2{
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main .productSite .product .prCart .incr3{
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main .productSite .product .prCart .QNT3{
+    font-size: 1.3rem;
+}
+
+.main .productSite .product .prCart .dicr3{
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main .productSite .product .prCart .incr4{
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main .productSite .product .prCart .QNT4{
+    font-size: 1.3rem;
+}
+
+.main .productSite .product .prCart .dicr4{
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* Cart Site 2 */
+
+.main .cartSite{
+    height: 70%;
+    width: 30%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    gap: 20px;
+    /* position: relative; */
+    color: wheat;
+    background: #457fca; 
+background: -webkit-linear-gradient(to right, #5691c8, #457fca);  
+background: linear-gradient(to right, #5691c8, #457fca); }
+.main .cartSite .cTxt{
+    text-align: center;
+}
+.main .cartSite .cProd1{
+    width: 90%;
+    height: 15%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    background: #360033; 
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  
+background: linear-gradient(to right, #0b8793, #360033); }
+.main .cartSite .cProd2{
+    width: 90%;
+    height: 15%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    background: #360033; 
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  
+background: linear-gradient(to right, #0b8793, #360033); }
+.main .cartSite .cProd3{
+    width: 90%;
+    height: 15%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    background: #360033; 
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  
+background: linear-gradient(to right, #0b8793, #360033); }
+.main .cartSite .cProd4{
+    width: 90%;
+    height: 15%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    background: #360033; 
+
+}
+.main .cartSite .cProd5{
+    width: 90%;
+    height: 15%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    background: #948E99; 
+background: -webkit-linear-gradient(to left, #2E1437, #948E99);  
+background: linear-gradient(to left, #2E1437, #948E99); 
+}
+.main .hide{
+    display: none;
+    
+}
